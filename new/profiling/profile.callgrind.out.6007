@@ -1,0 +1,1358 @@
+events: wall_time
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=IO::close
+0 324
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=IO::closed?
+0 8
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::[]
+0 6
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Hash::keys
+0 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=SortedSet::to_a
+782 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Hash::keys
+calls=1 782
+782 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::sort!
+calls=1 782
+782 37
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=SortedSet::each
+776 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::to_a
+calls=1 777
+777 41
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::each
+calls=1 777
+777 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerable::count
+0 3
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::each
+calls=1 54
+54 46
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerator::peek
+0 224859
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::exception
+calls=1 45
+45 9
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::backtrace
+calls=1 45
+45 4
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=Set::add
+349 1166802
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=SortedSet::add
+742 1797451
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::respond_to?
+calls=2750940 742
+742 341563
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=Set::add
+calls=2750940 744
+744 1166802
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerable::each_entry
+0 206882
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::each
+calls=500000 124
+124 4219162
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=Set::do_with_enum
+123 573501
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::respond_to?
+calls=500000 123
+123 107704
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerable::each_entry
+calls=500000 124
+124 4426044
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::instance_of?
+0 80067
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=Set::merge
+433 468133
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::class
+calls=500000 433
+433 79690
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::instance_of?
+calls=500000 433
+433 80067
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=Set::do_with_enum
+calls=500000 436
+436 5107249
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=SortedSet::merge
+771 313812
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=Set::merge
+calls=500000 772
+772 5735140
+
+fl=/Users/micro/Development/the_course/task-1/new/stats.rb
+fn=Stats::update_global_stat
+69 578294
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::sessions_count
+calls=500000 70
+70 131909
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::sessions_browsers
+calls=500000 71
+71 156431
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::merge
+calls=500000 71
+71 6048952
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Hash::has_key?
+0 1600267
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Oj::^dump
+0 2787997
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Hash::has_key?
+calls=13500000 42
+42 1600263
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Hash::has_key?
+calls=27 57
+57 4
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::reverse!
+0 84548
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::sessions_dates
+59 272025
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::map
+calls=500000 59
+59 593891
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::sort!
+calls=500000 59
+59 384119
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::reverse!
+calls=500000 59
+59 84548
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Regexp::===
+0 800648
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::all?
+0 224212
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Regexp::===
+calls=1170913 55
+55 800648
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::always_used_chrome?
+55 235563
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::sessions_browsers
+calls=500000 55
+55 122857
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::all?
+calls=500000 55
+55 1024860
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::include?
+0 189358
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::used_ie?
+51 237479
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::browsers
+calls=500000 51
+51 132690
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::include?
+calls=500000 51
+51 189358
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::join
+0 435929
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::sort!
+0 839630
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::upcase!
+0 400604
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::sessions_browsers
+63 515000
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::map
+calls=500000 63
+63 1223850
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::sort!
+calls=500000 63
+63 455473
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::browsers
+43 514281
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::sessions_browsers
+calls=500000 43
+43 1915035
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::join
+calls=500000 43
+43 435916
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::max
+0 113845
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::longest_session
+39 349892
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::session_times
+calls=500000 39
+39 142604
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::max
+calls=500000 39
+39 113845
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Integer::to_s
+calls=500000 39
+39 108322
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Integer::to_s
+0 245438
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::sum
+0 125801
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::map
+0 2051092
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::upcase!
+calls=2750940 63
+63 400604
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::session_times
+71 357162
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::map
+calls=500000 71
+71 633955
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::total_time
+35 411658
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::session_times
+calls=500000 35
+35 848513
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::sum
+calls=500000 35
+35 125801
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Integer::to_s
+calls=500000 35
+35 137116
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::sessions_count
+47 263546
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::stats
+24 894103
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::sessions_count
+calls=500000 24
+24 131636
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::total_time
+calls=500000 24
+24 1523087
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::longest_session
+calls=500000 24
+24 714663
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::browsers
+calls=500000 24
+24 2732542
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::used_ie?
+calls=500000 24
+24 559528
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::always_used_chrome?
+calls=500000 24
+24 1383280
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::sessions_dates
+calls=500000 24
+24 1334584
+
+fl=/Users/micro/Development/the_course/task-1/new/user.rb
+fn=User::key
+12 333989
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::rstrip!
+0 410982
+
+fl=/Users/micro/Development/the_course/task-1/new/parsers.rb
+fn=Parsers::^parse_session
+23 3356214
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::split
+calls=2750940 23
+23 3283798
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::to_i
+calls=8252820 26
+26 1260346
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::rstrip!
+calls=2750940 26
+26 410982
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::map!
+0 1036806
+cfl=/Users/micro/Development/the_course/task-1/new/parsers.rb
+cfn=Parsers::^parse_session
+calls=2750940 19
+19 8311341
+
+fl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+fn=UserSessions::initialize
+19 235565
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::map!
+calls=500000 19
+19 9348147
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::to_i
+0 1475743
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::split
+0 3921287
+
+fl=/Users/micro/Development/the_course/task-1/new/parsers.rb
+fn=Parsers::^parse_user
+12 564482
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::split
+calls=500000 12
+12 637488
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::to_i
+calls=1000000 15
+15 215397
+
+fl=/Users/micro/Development/the_course/task-1/new/user.rb
+fn=User::initialize
+8 278114
+cfl=/Users/micro/Development/the_course/task-1/new/parsers.rb
+cfn=Parsers::^parse_user
+calls=500000 8
+8 1417367
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerator::next
+0 82273
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerator::each
+0 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerator::initialize
+0 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerable::slice_before
+0 9
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerator::initialize
+calls=1 31
+31 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=IO::write
+0 754530
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::initialize
+0 1088
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=IO::^open
+0 69
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::initialize
+calls=1 28
+28 1088
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=IO::write
+calls=4 60
+60 6
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerable::slice_before
+calls=1 31
+31 11
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerator::each
+calls=1 31
+31 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::loop
+calls=1 35
+35 38564138
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerable::count
+calls=1 54
+54 49
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::to_a
+calls=1 55
+55 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::join
+calls=1 55
+55 13
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Oj::^dump
+calls=1 57
+57 16
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::[]
+calls=1 57
+57 6
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=IO::closed?
+calls=1 60
+60 8
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=IO::close
+calls=1 60
+60 324
+
+fl=/Users/micro/Development/the_course/task-1/new/stats.rb
+fn=Stats::call
+28 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=IO::^open
+calls=1 28
+28 38565730
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=IO::^foreach
+0 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=NilClass::nil?
+0 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Hash::initialize
+0 1
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=Set::initialize
+94 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Class::new
+calls=1 94
+94 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=NilClass::nil?
+calls=1 96
+96 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Module::method_removed
+0 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Module::remove_method
+0 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::method_removed
+calls=1 798
+798 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Module::module_eval
+0 211
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::method_added
+calls=13 791
+791 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::raise
+0 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::exception
+calls=1 132
+132 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=#<Class:0x00007fbe4f0d4de0>::to_spec
+0 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::full_name
+1972 1
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::gems_dir
+1984 1
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::raw_require_paths
+2744 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::extensions
+595 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/defaults.rb
+fn=Gem::^default_dir
+31 5
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::^default_specifications_dir
+38 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/defaults.rb
+cfn=Gem::^default_dir
+calls=1 38
+38 5
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^join
+calls=1 38
+38 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::class
+0 79695
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::^dirname
+0 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::default_gem?
+83 4
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^dirname
+calls=1 83
+83 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::class
+calls=1 83
+83 4
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::^default_specifications_dir
+calls=1 83
+83 9
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::missing_extensions?
+2185 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::default_gem?
+calls=1 2185
+2185 20
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::extensions
+calls=1 2186
+2186 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Dir::^chdir
+0 375
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerable::find
+calls=14 81
+81 300
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::loop
+0 1821349
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Dir::^chdir
+calls=14 111
+111 675
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^expand_path
+calls=14 113
+113 57
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerator::next
+calls=500000 36
+36 82338
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Class::new
+calls=1000000 39
+39 11768681
+cfl=/Users/micro/Development/the_course/task-1/new/user.rb
+cfn=User::key
+calls=500000 41
+41 333989
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=IO::write
+calls=1499999 42
+42 754524
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::stats
+calls=500000 42
+42 9273424
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Oj::^dump
+calls=500000 42
+42 4388248
+cfl=/Users/micro/Development/the_course/task-1/new/stats.rb
+cfn=Stats::update_global_stat
+calls=500000 43
+43 6915586
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerator::peek
+calls=500000 45
+45 3226007
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::===
+calls=1 45
+45 12
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::^expand_path
+0 64
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::block_given?
+0 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/util.rb
+fn=Gem/Util::^traverse_parents
+107 5
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::block_given?
+calls=2 107
+107 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^expand_path
+calls=2 109
+109 7
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::loop
+calls=2 110
+110 752
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Dir::^pwd
+0 66
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+fn=Gem/BundlerVersionFinder::^lockfile_contents
+78 9
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Object::*[]
+calls=2 78
+78 0
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Dir::^pwd
+calls=2 85
+85 66
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/util.rb
+cfn=Gem/Util::^traverse_parents
+calls=2 85
+85 767
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+fn=Gem/BundlerVersionFinder::^lockfile_version
+68 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+cfn=Gem/BundlerVersionFinder::^lockfile_contents
+calls=2 68
+68 842
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::^basename
+0 7
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+fn=Gem/BundlerVersionFinder::^bundle_update_bundler_version
+51 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^basename
+calls=2 51
+51 7
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Object::*[]
+0 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+fn=Gem/BundlerVersionFinder::^bundler_version_with_reason
+15 7
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Object::*[]
+calls=2 15
+15 3
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+cfn=Gem/BundlerVersionFinder::^bundle_update_bundler_version
+calls=2 18
+18 10
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+cfn=Gem/BundlerVersionFinder::^lockfile_version
+calls=2 22
+22 844
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+fn=Gem/BundlerVersionFinder::^bundler_version
+7 5
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+cfn=Gem/BundlerVersionFinder::^bundler_version_with_reason
+calls=2 7
+7 864
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::^exist?
+0 121
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::extension_dir
+91 16
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::gem_build_complete_path
+46 14
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::extension_dir
+calls=17 46
+46 6
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^join
+calls=17 46
+46 30
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::have_extensions?
+317 83
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::extensions
+calls=153 317
+317 153
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::extensions
+calls=1 317
+317 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::^file?
+0 2949
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=File::^join
+0 479
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::untaint
+0 61
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::full_name
+181 67
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::data
+calls=153 181
+181 57
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::any?
+0 320
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::full_name
+calls=153 321
+321 124
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::untaint
+calls=308 321
+321 53
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^join
+calls=154 321
+321 394
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::any?
+calls=154 322
+322 2755
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^file?
+calls=93 327
+327 439
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::gems_dir
+calls=1 321
+321 1
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::full_name
+calls=1 321
+321 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^file?
+calls=462 322
+322 2280
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::raw_require_paths
+141 65
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::data
+calls=153 141
+141 73
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::have_file?
+320 224
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::raw_require_paths
+calls=153 320
+320 138
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::any?
+calls=185 327
+327 4087
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::have_extensions?
+calls=154 325
+325 237
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::extension_dir
+calls=31 326
+326 10
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^join
+calls=31 326
+326 54
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::raw_require_paths
+calls=1 320
+320 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems.rb
+fn=Gem::^suffixes
+1016 54
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::extensions
+170 126
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::data
+calls=116 170
+170 44
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::data
+calls=153 170
+170 79
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::default_gem?
+94 42
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::missing_extensions?
+145 122
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::default_gem?
+calls=153 145
+145 42
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::extensions
+calls=116 146
+146 96
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::gem_build_complete_path
+calls=17 147
+147 49
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^exist?
+calls=17 147
+147 121
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+fn=Gem/BasicSpecification::contains_requirable_file?
+69 203
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::missing_extensions?
+calls=153 71
+71 431
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems.rb
+cfn=Gem::^suffixes
+calls=154 79
+79 54
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::have_file?
+calls=154 79
+79 4751
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::missing_extensions?
+calls=1 71
+71 24
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::data
+109 322
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+fn=Gem/StubSpecification::name
+156 81
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::data
+calls=153 156
+156 69
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+fn=Gem/BundlerVersionFinder::^compatible?
+38 87
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/stub_specification.rb
+cfn=Gem/StubSpecification::name
+calls=153 38
+38 150
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+cfn=Gem/BundlerVersionFinder::^bundler_version
+calls=2 39
+39 869
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Array::each
+0 913484
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/bundler_version_finder.rb
+cfn=Gem/BundlerVersionFinder::^compatible?
+calls=154 1042
+1042 1106
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/basic_specification.rb
+cfn=Gem/BasicSpecification::contains_requirable_file?
+calls=154 1043
+1043 5463
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::untaint
+calls=56 81
+81 8
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=File::^file?
+calls=56 81
+81 229
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::add
+calls=2750940 436
+436 3305815
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Enumerable::find
+0 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::each
+calls=1 1041
+1041 6704
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Array::each
+calls=14 81
+81 290
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::^stubs
+824 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::freeze
+0 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::initialize_copy
+0 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::initialize_dup
+0 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::initialize_copy
+calls=1 1040
+1040 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::dup
+0 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::initialize_dup
+calls=1 1040
+1040 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::^find_by_path
+1040 6
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::dup
+calls=1 1040
+1040 4
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::freeze
+calls=1 1040
+1040 3
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::^stubs
+calls=1 1041
+1041 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Enumerable::find
+calls=1 1041
+1041 6706
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=#<Class:0x00007fbe4f0d4de0>::to_spec
+calls=1 1045
+1045 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems.rb
+fn=Gem::^try_activate
+212 3
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::^find_by_path
+calls=1 212
+212 6723
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::end_with?
+0 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=String::start_with?
+0 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Exception::to_s
+0 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Exception::message
+0 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::to_s
+calls=2 123
+123 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Module::===
+0 14
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Exception::backtrace
+0 19
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Exception::exception
+0 13
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Exception::initialize
+0 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Thread/Mutex::unlock
+0 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/monitor.rb
+fn=MonitorMixin::mon_check_owner
+268 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Thread::^current
+calls=2 268
+268 1
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/monitor.rb
+fn=MonitorMixin::mon_exit
+200 6
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/monitor.rb
+cfn=MonitorMixin::mon_check_owner
+calls=2 200
+200 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Thread/Mutex::unlock
+calls=2 204
+204 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+fn=Gem/Specification::^unresolved_deps
+1307 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems.rb
+fn=Gem::^find_unresolved_default_spec
+1276 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Kernel::respond_to?
+0 449269
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Thread/Mutex::lock
+0 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Thread::^current
+0 2
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/monitor.rb
+fn=MonitorMixin::mon_enter
+188 7
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Thread::^current
+calls=4 190
+190 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Thread/Mutex::lock
+calls=2 189
+189 1
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb
+fn=Kernel::require
+35 15
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/monitor.rb
+cfn=MonitorMixin::mon_enter
+calls=2 119
+119 9
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::respond_to?
+calls=1 37
+37 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems.rb
+cfn=Gem::^find_unresolved_default_spec
+calls=1 39
+39 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/specification.rb
+cfn=Gem/Specification::^unresolved_deps
+calls=1 52
+52 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/monitor.rb
+cfn=MonitorMixin::mon_exit
+calls=2 127
+127 12
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb
+cfn=Kernel::require
+calls=1 54
+54 200
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::===
+calls=1 54
+54 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::message
+calls=2 122
+122 4
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::start_with?
+calls=1 122
+122 2
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=String::end_with?
+calls=1 122
+122 2
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems.rb
+cfn=Gem::^try_activate
+calls=1 122
+122 6726
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Kernel::raise
+calls=1 132
+132 4
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::backtrace
+calls=1 132
+132 14
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::initialize
+calls=1 54
+54 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::exception
+calls=1 54
+54 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Exception::backtrace
+calls=1 54
+54 1
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Module::method_added
+0 3
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Module::alias_method
+0 5
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::method_added
+calls=1 707
+707 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Thread/Mutex::synchronize
+0 5
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::alias_method
+calls=1 707
+707 7
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb
+cfn=Kernel::require
+calls=1 710
+710 6995
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::===
+calls=1 710
+710 1
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::module_eval
+calls=1 725
+725 212
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Module::remove_method
+calls=1 798
+798 3
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=SortedSet::^setup
+703 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Thread/Mutex::synchronize
+calls=1 705
+705 7223
+
+fl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+fn=SortedSet::initialize
+806 3
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::^setup
+calls=1 806
+806 7226
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::initialize
+calls=1 807
+807 8
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=Set::initialize
+calls=1 728
+728 6
+
+fl=/Users/micro/Development/the_course/task-1/new/stats.rb
+fn=Stats::initialize
+13 6
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Class::new
+calls=1 19
+19 7238
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=IO::^foreach
+calls=1 20
+20 2
+
+fl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+fn=Class::new
+0 489490
+cfl=/Users/micro/Development/the_course/task-1/new/stats.rb
+cfn=Stats::initialize
+calls=1 24
+24 7246
+cfl=/Users/micro/.asdf/installs/ruby/2.6.1/lib/ruby/2.6.0/set.rb
+cfn=SortedSet::initialize
+calls=1 19
+19 7237
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Hash::initialize
+calls=1 94
+94 1
+cfl=/Users/micro/Development/the_course/task-1/new/user.rb
+cfn=User::initialize
+calls=500000 38
+38 1695482
+cfl=/Users/micro/Development/the_course/task-1/new/user_sessions.rb
+cfn=UserSessions::initialize
+calls=500000 39
+39 9583712
+
+fl=/Users/micro/Development/the_course/task-1/new/tests/stats_benchmarks.rb
+fn=Object::work
+24 3
+cfl=/Users/micro/Development/the_course/task-1/new/ruby_runtime
+cfn=Class::new
+calls=1 24
+24 7249
+cfl=/Users/micro/Development/the_course/task-1/new/stats.rb
+cfn=Stats::call
+calls=1 24
+24 38565732
+
+fl=/Users/micro/Development/the_course/task-1/new/tests/stats_benchmarks.rb
+fn=Object::cpu_profiling
+53 34
+cfl=/Users/micro/Development/the_course/task-1/new/tests/stats_benchmarks.rb
+cfn=Object::work
+calls=1 53
+53 38572984
+
